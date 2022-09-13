@@ -1,0 +1,39 @@
+<meta charsert="UTF-8">
+
+<h1>Calcular la tabla de Multiplicar.</h1>
+
+<script>
+
+    function saltarLinea() {
+
+        document.write("<br>");
+        document.write("<br>");
+        document.write("<br>");
+
+    }
+
+    function imprimir(frase) {
+
+        document.write("<big>" + frase + "</big>");
+        saltarLinea();
+
+    }
+
+    var multiplicador = 1;
+
+    while(multiplicador <= 10) {
+        
+        imprimir(5 * multiplicador);
+       multiplicador = multiplicador + 1;
+    }
+
+    imprimir("Fin gracias por usar nuestro programa.");
+
+    
+    //for(var multiplicador = 1; multiplicador <= 10; multiplicador = multiplicador + 1) {
+        for(var multiplicador = 1; multiplicador <= 10; multiplicador++) {    
+        
+        imprimir(5 * multiplicador);
+    }   
+
+</script>

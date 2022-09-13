@@ -1,0 +1,43 @@
+<!--¿Listo para un ejercicio que te hará romper 
+un poco la cabeza? 
+Usando la instrucción while, imprime todos 
+los números pares del 1 al 100 y al final 
+imprime la palabra "FIN".-->
+
+<meta charset="UTF-8">
+
+<title>Números Pares</title>
+<h1>Numero Pares del 2 al 100.</h1>
+
+<script>
+
+    function saltarLinea() {
+
+        document.write("<br>");
+        document.write("<br>");
+        document.write("<br>");
+
+    }
+
+    function imprimir(frase) {
+
+        document.write("<big>" + frase + "</big>");
+        saltarLinea();
+
+    }
+    var numeroPar = 0;
+    //var numeroLimite = parseInt(prompt("Ingrese número par del 0 al 100. "));
+
+    while (numeroPar <= 100) {
+
+        imprimir( numeroPar);
+        numeroPar = numeroPar + 2;
+        numeroPar+2; 
+    }
+
+    imprimir("Fin...");
+    
+    
+
+
+</script>

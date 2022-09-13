@@ -1,0 +1,71 @@
+<meta charset="UTF-8">
+
+<canvas width="600" height="400"></canvas>
+
+
+<script>
+
+    /*var pantalla = document.querySelector("canvas");
+    var pincel = pantalla.getContext("2d");
+    
+    pincel.fillStyle = "lightgrey";  //propoedad  como VAR
+    pincel.fillRect(0,0,600,400); //función
+
+    pincel.fillStyle = "darkgreen";
+    pincel.fillRect(125,50,350,300);
+
+
+    pincel.fillStyle = "black";
+    pincel.beginPath();
+    pincel.fillRect(150,100,100,100);
+
+    pincel.fillStyle = "black";
+    pincel.beginPath();
+    pincel.fillRect(350,100,100,100);
+
+    pincel.fillStyle = "black";
+    pincel.beginPath();
+    pincel.fillRect(250,200,100,110);
+
+    pincel.fillStyle = "black";
+    pincel.beginPath();
+    pincel.fillRect(350,250,40,100);
+
+    pincel.fillStyle = "black";
+    pincel.beginPath();
+    pincel.fillRect(210,250,40,100);*/
+
+
+//se puede hacer lo mismo, con menos código
+
+
+
+
+
+
+    var pantalla = document.querySelector("canvas");
+    var pincel = pantalla.getContext("2d");
+    //cabeza
+    pincel.fillStyle = 'darkgreen';
+    pincel.fillRect(200, 50, 350 ,300);
+    //ojos
+    pincel.fillStyle = 'black';
+    pincel.fillRect(250, 110, 90, 90);
+    pincel.fillRect(410, 110, 90, 90);
+    //nariz
+    pincel.fillRect(340, 200, 70, 100);
+     //boca
+    pincel.fillRect(300, 240, 40, 110);
+    pincel.fillRect(410, 240, 40, 110);
+
+
+
+
+    //pincel.fillStyle = "blue";
+    //pincel.beginPath();
+    //pincel.arc(300,200,50,0,2*3.14);
+    //pincel.fill();
+    //pincel.fillStyle = "black";
+    //pincel.fillRect(400,0,200,400);
+
+</script>
